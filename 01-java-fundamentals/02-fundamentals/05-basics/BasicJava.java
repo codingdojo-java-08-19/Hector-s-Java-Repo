@@ -67,11 +67,12 @@ public class BasicJava {
         ArrayList<Integer> newArray = new ArrayList<Integer>();
         for (int i = 0; i < array.length; i++) {
             newArray.add(array[i] * array[i]);
+            newArray.add(i, array[i]);
         }
         return newArray;
     }
 
-    public ArrayList noNegatives(Integer[] array) {
+    public ArrayList<Integer> noNegatives(Integer[] array) {
         ArrayList<Integer> newArray = new ArrayList<Integer>();
         for (int i = 0; i < array.length; i++) {
             if (array[i] >= 0) {
