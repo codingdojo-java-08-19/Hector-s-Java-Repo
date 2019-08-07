@@ -1,4 +1,5 @@
 package zoo;
+import bat.Bat;
 
 public class GorillaTest {
 
@@ -15,6 +16,19 @@ public class GorillaTest {
 		joeJoe.climb();
 		
 		joeJoe.displayEnergy();
+		
+		Bat batty = new Bat();
+		
+		batty.displayEnergy();
+		
+		batty.attackATown();
+		
+		batty.fly();
+		
+		batty.eatManFlesh();
+		batty.eatManFlesh();
+		
+		batty.displayEnergy();
 	}
 
 }

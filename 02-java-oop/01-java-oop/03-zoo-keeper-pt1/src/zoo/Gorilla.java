@@ -1,5 +1,6 @@
 package zoo;
 
+// energy level did not need to be protected for gorilla but did for bat?
 public class Gorilla extends Mammal{
 	public void throwSomething(){
 		 energyLevel -= 5;
