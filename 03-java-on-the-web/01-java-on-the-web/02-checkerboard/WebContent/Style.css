@@ -1,0 +1,23 @@
+*{	
+	outline: 2px dotted teal;
+}
+
+div{
+	display: block;
+	background-color: black;
+}
+
+div div{
+	display: inline-block;
+	height: 200px;
+	width: 200px;
+	margin: -1px;
+}
+
+.aqua{
+	background-color: aqua;
+}
+
+.pink{
+	background-color: pink;
+}

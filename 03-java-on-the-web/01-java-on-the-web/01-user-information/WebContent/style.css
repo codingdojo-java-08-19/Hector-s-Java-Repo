@@ -1,0 +1,12 @@
+@charset "ISO-8859-1";
+
+row-block{
+	display: block;
+}
+
+colmn-block{
+	display: inline-block;
+	hieght: 200px;
+	width: 200px;
+	background-color: violet;
+}
