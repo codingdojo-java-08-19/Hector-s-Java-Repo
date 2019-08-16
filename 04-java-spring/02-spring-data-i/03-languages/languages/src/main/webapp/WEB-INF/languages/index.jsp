@@ -35,7 +35,7 @@
 			</c:forEach>
 		</tbody>
 	</table>
-	<form action="/languages" method="POST" modelAttribute="language">
+	<!---<form action="/languages" method="POST" modelAttribute="language">
 		name:
 		<input type="text" name="name">
 		creator:
@@ -43,8 +43,8 @@
 		version:
 		<input type="text" name="version">
 		<button type="submit">submit</button>
-	</form>
-	<!---<form:form action="/languages" method="POST" modelAttribute="language">		
+	</form>--->
+	<form:form action="/languages" method="POST" modelAttribute="language">		
 		name:
 		<form:errors path="name"/>
 		<form:input path="name"/>
@@ -56,6 +56,6 @@
 		<form:input path="version"/>
 		
 		<button type="submit">submit</button>
-	</form:form> --->
+	</form:form>
 </body>
 </html>

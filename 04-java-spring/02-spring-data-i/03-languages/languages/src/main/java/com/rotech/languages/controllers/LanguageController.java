@@ -37,7 +37,9 @@ public class LanguageController {
 	@PostMapping("")
 	public String create(@Valid @ModelAttribute("language") Language language, BindingResult result) {
 		String page = result.hasErrors() ?  "languages/index.jsp":"redirect:/languages" ;
-		langSer.update(language); 
+		if(!result.hasErrors()) {
+			langSer.update(language); 
+		}
 		return page;
 	}
 	
